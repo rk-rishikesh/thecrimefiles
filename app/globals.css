@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors from design guide */
+  --color-white: #FFFFFF;
+  --color-light-gray: #EDEDED;
+  --color-medium-gray: #C2C2C2;
+  --color-dark-gray: #626262;
+  --color-very-dark-gray: #2B2B32;
+  --color-near-black: #101218;
+  --color-darkest-black: #070A12;
+  
+  /* Typography */
+  --font-headline: var(--font-oswald);
+  --font-body: var(--font-lato);
+  --font-serif: var(--font-playfair);
+}
+
+@theme inline {
+  --color-white: #FFFFFF;
+  --color-light-gray: #EDEDED;
+  --color-medium-gray: #C2C2C2;
+  --color-dark-gray: #626262;
+  --color-very-dark-gray: #2B2B32;
+  --color-near-black: #101218;
+  --color-darkest-black: #070A12;
+  
+  --font-headline: var(--font-oswald);
+  --font-body: var(--font-lato);
+  --font-serif: var(--font-playfair);
+}
+
+html {
+  height: 100%;
+  /* Support for iOS Safari dynamic viewport height - accounts for address bar */
+  height: 100dvh;
+  background: var(--color-darkest-black);
+  /* Prevent white background on iOS overscroll */
+  min-height: 100%;
+  min-height: 100dvh;
+}
+
+body {
+  height: 100%;
+  background: var(--color-darkest-black);
+  color: var(--color-white);
+  font-family: var(--font-lato), sans-serif;
+  /* Support for iOS Safari dynamic viewport height - accounts for address bar */
+  height: 100dvh;
+  /* Fixed background layer to cover iOS overscroll bounce area */
+  position: relative;
+}
+
+/* Fixed background layer to cover iOS Safari overscroll bounce area */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -200vh -100vw;
+  background: var(--color-darkest-black);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Utility classes for typography */
+.font-headline {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-lato), sans-serif;
+}
+
+/* Custom button style */
+.btn-interrogate {
+  position: relative;
+  height: 50px;
+  padding: 0 30px;
+  border: 2px solid #fff;
+  background: #000;
+  user-select: none;
+  white-space: nowrap;
+  transition: all .05s linear;
+  font-family: inherit;
+}
+
+.btn-interrogate:before,
+.btn-interrogate:after {
+  content: "";
+  position: absolute;
+  background: #000;
+  transition: all .2s linear;
+}
+
+.btn-interrogate:before {
+  width: calc(100% + 6px);
+  height: calc(100% - 16px);
+  top: 8px;
+  left: -3px;
+}
+
+.btn-interrogate:after {
+  width: calc(100% - 16px);
+  height: calc(100% + 6px);
+  top: -3px;
+  left: 8px;
+}
+
+.btn-interrogate:hover {
+  cursor: crosshair;
+}
+
+.btn-interrogate:active {
+  transform: scale(0.95);
+}
+
+.btn-interrogate:disabled:active {
+  transform: none;
+}
+
+.btn-interrogate:hover:before {
+  height: calc(100% - 32px);
+  top: 16px;
+}
+
+.btn-interrogate:hover:after {
+  width: calc(100% - 32px);
+  left: 16px;
+}
+
+.btn-interrogate span {
+  font-size: 15px;
+  z-index: 3;
+  position: relative;
+  font-weight: 600;
+  color: #fff;
+}

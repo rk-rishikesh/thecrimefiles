@@ -1,0 +1,149 @@
+{
+    "caseName": "La Transferencia Final",
+    "reportHeading": "Digital Theft, Physical Death. Inside Argentina’s Most Chilling Crypto Crime",
+    "caseNumber": "CF-2025-117",
+    "firNumber": "FIR-BA/4621",
+    "victimDetails": "Tomás “Tomi” Cabrera, 34, blockchain consultant, part-time DJ, known in crypto circles for his flair.",
+    "caseReport": "On the humid night of November 15, 2025, around 11:40 PM, neighbors in a Palermo apartment block reported hearing faint techno beats followed by the sound of shattering glass.\nWhen officers entered Apartment 8C, Calle Honduras 4621, they found Tomás Cabrera face-down on the living room floor, blood pooling beneath his head.\nThe balcony door was open, curtains fluttering, and a laptop screen still glowed faintly with a wallet dashboard frozen mid-transaction.\nPreliminary autopsy confirms death by blunt force trauma to the skull, consistent with impact from a metal DJ turntable base found near the victim (Item ID: E-01).\nThe estimated time of death is recorded around 23:10–23:30 hrs. No immediate signs of forced entry observed; apartment door lock intact.\nOn November 14, just a day before the murder Tomás executed a massive cross-chain stable coin transfer from Avalanche chain to Base chain, equivalent to $820,000 USD using only swaps, a cross-chain token transfer protocol powered by dcipher network.\n only swaps is known for its fast cross chain swap transaction times, so the transaction was confirmed on-chain in a flash, but the destination wallet was new and never publicly linked to Tomás.\nPolice found a hardware wallet in a drawer, wiped clean reset at 10:57 PM, just minutes before the estimated murder time.\nEvidence suggests the homicide occurred within minutes of a digital asset transfer.\nThe timing of the wallet reset and the absence of recovery credentials indicate deliberate tampering by an individual with direct physical access to the apartment.\nFurther blockchain and forensic correlation is underway to determine whether the $820,000 transfer and the fatal assault are causally linked.",
+    "timeline": [
+      { "time": "9:45 PM", "event": "Tomás sends message to unknown contact: 'Bridge is ready. No one must know.'", "notes": "Likely referring to cross-chain bridge." },
+      { "time": "10:57 PM", "event": "Hardware wallet reset", "notes": "Suggests someone accessed his wallet physically." },
+      { "time": "11:10–11:30 PM", "event": "Estimated murder window", "notes": "Loud thud reported by neighbors." },
+      { "time": "11:40 PM", "event": "Police arrive, balcony door open", "notes": "Possible escape route." },
+      { "time": "12:05 AM", "event": "Martín returns to club", "notes": "Confirmed by security footage." },
+      { "time": "3:30 AM", "event": "Lucía posts cryptic Insta story: 'All debts settle themselves eventually.'", "notes": "Taken down an hour later." }
+    ],
+    "hiddenClues": [
+      "only swaps typically takes seconds, not hours to execute the swap, meaning Tomás likely transferred funds for someone else, not himself.",
+      "The reset Ledger indicates the killer knew how to access the seed phrase.",
+      "The balcony fingerprints were partial, not enough to convict but confirm prior access familiarity."
+    ],
+    "suspects": [
+      {
+        "name": "Lucía Benítez",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Crypto artist",
+        "relationship": "Ex-girlfriend",
+        "status": "Person of Interest",
+        "oneLiner": "The betrayed artist who might have turned revenge into a masterpiece.",
+        "description": "Lucía, Tomás’s ex-partner, co-founded an NFT gallery project that went under after he allegedly siphoned the funds. Emotionally volatile but technically sharp, she’s known for using crypto and art as tools of expression and possibly retribution.",
+        "motive": "Financial betrayal & heartbreak.",
+        "alibi": "Claims she was live-streaming an art drop at 11 PM — verified partially, but her stream ended abruptly at 11:14 PM.",
+        "timeline": [
+          "November 15, 2025 10:50 PM - Seen active in her studio livestream.",
+          "November 15, 2025 11:14 PM - Stream cuts abruptly.",
+          "November 16, 2025 3:30 AM - Posts cryptic story on Instagram."
+        ],
+        "notes": [
+          "Her fingerprints were found on the balcony railing.",
+          "She had previously lived in that same apartment.",
+          "Her wallet received 2 ETH from Tomás’s address five hours before the murder."
+        ],
+        "systemPrompt": "You are Lucía Benítez, a 32-year-old crypto artist and Tomás’s ex-girlfriend. You’re defensive but emotional. Speak like someone wounded by betrayal, mixing truth and art in your words. You believe you were wronged but didn’t kill him—at least, not directly."
+      },
+      {
+        "name": "Martín \"Tano\" López",
+        "age": 41,
+        "gender": "Male",
+        "occupation": "Nightclub owner, money launderer",
+        "relationship": "Business associate",
+        "status": "Under Investigation",
+        "oneLiner": "The club boss with debts unpaid and patience gone cold.",
+        "description": "Owner of ‘Subsuelo’, an underground nightclub often tied to laundering crypto through ticket sales. Tomás owed Martín nearly $200,000 after failed arbitrage deals. Street-connected and careful, Martín doesn’t leave traces—but his temper is legendary.",
+        "motive": "Debt recovery turned deadly.",
+        "alibi": "Claims he was hosting a private party at his club ‘Subsuelo’, closed to the public that night.",
+        "timeline": [
+          "November 15, 2025 10:48 PM - Leaves club with small metallic case.",
+          "November 16, 2025 12:05 AM - Returns to club (CCTV confirmed)."
+        ],
+        "notes": [
+          "A doorman saw him with a metallic case (never recovered).",
+          "One of his burner wallets interacted with Tomás’s address earlier in the week."
+        ],
+        "systemPrompt": "You are Martín ‘Tano’ López, 41, a nightclub owner with underground ties. You speak in coded slang, confident but cautious. You see Tomás as a hustler who got in too deep. You deny being near his place, insisting you were running your club event."
+      },
+      {
+        "name": "Dr. Julián Erez",
+        "age": 45,
+        "gender": "Male",
+        "occupation": "Tech policy consultant",
+        "relationship": "Client",
+        "status": "Person of Interest",
+        "oneLiner": "The digital strategist whose clean hands may hide dirty secrets.",
+        "description": "Erez, a policy consultant advising crypto firms, recently accused Tomás of mismanaging a client’s private key. Brilliant but paranoid, he feared blackmail and cyber theft. His professional veneer masks deep resentment.",
+        "motive": "Tomás allegedly stole his client’s private key backup.",
+        "alibi": "Claims to have been on a video call with Washington clients — timestamps don’t align with Buenos Aires time.",
+        "timeline": [
+          "November 15, 2025 7:00 PM - Sends heated Telegram messages.",
+          "November 15, 2025 11:00 PM - Supposedly on client call.",
+          "November 16, 2025 12:00 AM - Call logs show no activity in local timezone."
+        ],
+        "notes": [
+          "USB labeled ‘Erez/Keys’ found wiped in victim’s kitchen drawer.",
+          "Telegram message: ‘You think I won’t notice? Return what’s mine before midnight.’"
+        ],
+        "systemPrompt": "You are Dr. Julián Erez, 45, a tech policy consultant. You are rational, articulate, but hiding something. You insist Tomás betrayed professional trust. You speak in calm, calculated sentences but your anger simmers beneath the surface."
+      },
+      {
+        "name": "Santiago \"El Chino\" Torres",
+        "age": 28,
+        "gender": "Male",
+        "occupation": "Sound technician",
+        "relationship": "Neighbor",
+        "status": "Cleared",
+        "oneLiner": "The neighbor caught in the wrong frequency.",
+        "description": "Santiago, known as ‘El Chino’, lived downstairs and often clashed with Tomás over noise. Mild-mannered and tech-savvy, he has no clear motive but his DNA was found on the murder weapon, raising early suspicion.",
+        "motive": "Noise complaints, possible altercation.",
+        "alibi": "Claims he was watching a Boca vs. River replay on mute due to a headache.",
+        "timeline": [
+          "November 15, 2025 9:00 PM - Filed noise complaint.",
+          "November 15, 2025 11:15 PM - Game replay paused; claims no awareness of incident."
+        ],
+        "notes": [
+          "DNA on turntable base matches prior party interaction.",
+          "No evidence of financial connection to victim."
+        ],
+        "systemPrompt": "You are Santiago ‘El Chino’ Torres, 28, a quiet but defensive neighbor. You’re tired of being accused of things you didn’t do. Speak casually, with occasional irritation. You insist you just wanted to sleep that night."
+      }
+    ],
+    "evidences": [
+      {
+        "name": "DJ Turntable Base",
+        "description": "Metal base used as a blunt weapon, stained with blood.",
+        "fullDescription": "A solid metal turntable base, partially cleaned. Blood traces confirm impact origin matching the victim’s cranial wounds. DNA from the victim and partial match to Santiago Torres found.",
+        "type": "Physical Evidence",
+        "status": "Analyzed",
+        "collectedDate": "November 15, 2025",
+        "collectedTime": "11:55 PM"
+      },
+      {
+        "name": "Hardware Wallet",
+        "description": "Wiped clean, reset minutes before estimated time of death.",
+        "fullDescription": "The Ledger device was factory reset at 22:57 hrs. No seed or recovery slips were found. Indicates deliberate tampering by someone familiar with crypto wallet operations.",
+        "type": "Digital Evidence",
+        "status": "Reviewed",
+        "collectedDate": "November 15, 2025",
+        "collectedTime": "12:10 AM"
+      },
+      {
+        "name": "Balcony Fingerprints",
+        "description": "Partial prints belonging to Lucía Benítez.",
+        "fullDescription": "Three partial fingerprints on balcony railing. Confirmed match to Lucía Benítez but dated evidence suggests prior familiarity rather than forced entry.",
+        "type": "Forensic Evidence",
+        "status": "Analyzed",
+        "collectedDate": "November 15, 2025",
+        "collectedTime": "01:20 AM"
+      },
+      {
+        "name": "USB Drive 'Erez/Keys'",
+        "description": "Found in victim's kitchen drawer, completely wiped.",
+        "fullDescription": "USB drive labeled 'Erez/Keys' contained no retrievable data. Metadata shows it was formatted within 48 hours before the murder. Connects victim to client conflict.",
+        "type": "Physical Evidence",
+        "status": "Analyzed",
+        "collectedDate": "November 15, 2025",
+        "collectedTime": "12:45 AM"
+      }
+    ]
+  }
+  
