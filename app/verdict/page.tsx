@@ -201,25 +201,15 @@ export default function VerdictPage() {
             {/* Block Number Message */}
             <div className="text-center mb-8">
               <p className="text-xs md:text-sm text-[#8F8F8F]">
-                The killer would be decrypted on block number: <span className="text-[#EDEDED] font-mono">38551268</span>
+                The killer would be decrypted on Judgement Day
               </p>
             </div>
 
             {/* Encryption Message with Image */}
             <div className="text-center mb-12">
               <p className="text-sm md:text-base text-[#C2C2C2] mb-4">
-                The killer's name is encrypted onchain powered by
+                The killer's name is encrypted.
               </p>
-              {/* Dcipher Network Sponsor Image */}
-              <div className="flex justify-center mb-6">
-                <Image
-                  src="/dcipher.svg"
-                  alt="dcipher network"
-                  width={200}
-                  height={60}
-                  className="object-contain"
-                />
-              </div>
             </div>
 
           </div>
